@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <div class="title">Gsndp cyanika</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-th-large"></i>
+                        <div class="title">Dashboard</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-user-group"></i>
+                        <div class="title">Admin Profile</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-building-user"></i>
+                        <div class="title">Departments</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-school"></i>
+                        <div class="title">Classrooms</div>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-person-circle-plus"></i>
+                        <div class="title">Students</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-gears"></i>
+                        <div class="title">Setting</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-address-book"></i>
+                        <div class="title">About Us</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-code"></i>
+                        <div class="title">Developer</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">Log out</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="main">
+            <div class="top-bar">
+                <div class="search">
+                    <input type="text" name="search" placeholder="search here">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                </div>
+                <i class="fas fa-bell"></i>
+                <div class="user">
+
+                </div>
+
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">70</div>
+                        <div class="card-name">Classrooms</div>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fas fa-school"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">700</div>
+                        <div class="card-name">Students</div>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">55</div>
+                        <div class="card-name">Teachers</div>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">5</div>
+                        <div class="card-name">Departments</div>
+                    </div>
+
+                    <div class="icon-box">
+                        <i class="fa-solid fa-building-user"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <section class="student">
+                <div class="student-list">
+                    <h1>Recently Registered</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Depart</th>
+                                <th>Sex</th>
+                                <th>Age</th>
+                                <th>Details</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>01</th>
+                                <th>Ishimwe Gloire</th>
+                                <th>ICT</th>
+                                <th>M</th>
+                                <th>18</th>
+                                <th><button class="view">View</button></th>
+                                <th> <button class="edit">Edit</button> <button>Delete</button></th>
+                            </tr>
+
+                            <tr class="active">
+                                <th>02</th>
+                                <th>Irambona Kelly</th>
+                                <th>ICT</th>
+                                <th>M</th>
+                                <th>17</th>
+                                <th><button class="view">View</button></th>
+                                <th><button class="edit">Edit</button> <button>Delete</button></th>
+                            </tr>
+
+                            <tr>
+                                <th>03</th>
+                                <th>Keza Diane</th>
+                                <th>ACC</th>
+                                <th>F</th>
+                                <th>16</th>
+                                <th><button class="view">View</button></th>
+                                <th><button class="edit">Edit</button> <button>Delete</button></th>
+                            </tr>
+
+                            <tr>
+                                <th>04</th>
+                                <th>Irankuda Eric</th>
+                                <th>BUS</th>
+                                <th>M</th>
+                                <th>19</th>
+                                <th><button class="view">View</button></th>
+                                <th><button class="edit">Edit</button> <button>Delete</button></th>
+                            </tr>
+                        </tbody>
+
+
+                    </table>
+
+                </div>
+
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
